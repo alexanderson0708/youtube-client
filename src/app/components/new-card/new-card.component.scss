@@ -1,0 +1,41 @@
+.new-card-wrapper{
+  margin: 7rem auto;
+  max-width: 430px;
+  max-height: 500px;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  background: #F2F2F2;
+  border-radius: 17.6119px;
+  padding: 2rem 1.5rem;
+}
+.title{
+  font-weight: 700;
+  font-size: 22.6439px;
+  line-height: 27px;
+}
+mat-form-field{
+  max-width: 382.43px;
+  width: 100%;
+}
+form{
+  display: flex;
+  flex-direction: column;
+}
+.create-card-btn{
+  display: flex;
+  align-self: flex-end;
+  max-width: 190px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 38px;
+  background: #2F80ED;
+  border-radius: 6.28997px;
+  border: none;
+  color: white;
+  font-size: 15.0959px;
+  line-height: 18px;
+}

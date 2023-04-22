@@ -1,0 +1,49 @@
+.reg-wrapper{
+  background: #F2F2F2;
+  max-height: 500px;
+  max-width: 350px;
+  width: 100%;
+  height: 100%;
+  border-radius: 17.6119px;
+  padding: 2rem 1.5rem;
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.title{
+  font-weight: 700;
+  font-size: 22.6439px;
+  line-height: 27px;
+}
+form, mat-form-field{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 0.5rem;
+}
+.reg-btn,.login-btn{
+  border-radius: 5px;
+  background: #2F80ED;
+  color: white;
+  height: 100%;
+  font-size: 12px;
+  max-width: 124px;
+  width: 100%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 30px;
+  align-self: flex-end;
+  cursor: pointer;
+}
+.btn-box{
+  display: flex;
+  height: 100%;
+  justify-content: flex-end;
+}
+.login-btn{
+  background: none;
+  color: #2F80ED;
+}

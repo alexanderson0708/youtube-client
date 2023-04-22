@@ -9,23 +9,23 @@ import { MatInputModule} from '@angular/material/input'
 import { MatChipsModule} from "@angular/material/chips";
 import {MatAutocompleteModule} from "@angular/material/autocomplete";
 import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
 import { NewCardComponent } from './new-card/new-card.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { LoginComponent } from './login/login.component';
 import { CardComponent } from './card/card.component';
 import { BigCardComponent } from './big-card/big-card.component';
+import { SortByComponent } from './sort-by/sort-by.component';
 
 
 @NgModule({
   declarations: [
-    // HeaderComponent,
-    FooterComponent,
+    HeaderComponent,
     NewCardComponent,
     RegistrationComponent,
     LoginComponent,
     CardComponent,
-    BigCardComponent
+    BigCardComponent,
+    SortByComponent
   ],
   imports: [
     CommonModule,
@@ -40,13 +40,13 @@ import { BigCardComponent } from './big-card/big-card.component';
     MatAutocompleteModule
   ],
   exports:[
-    // HeaderComponent,
-    FooterComponent,
+    HeaderComponent,
     NewCardComponent,
     RegistrationComponent,
     LoginComponent,
     CardComponent,
-    BigCardComponent
+    BigCardComponent,
+    SortByComponent
   ],
 })
 export class ComponentModule { }
